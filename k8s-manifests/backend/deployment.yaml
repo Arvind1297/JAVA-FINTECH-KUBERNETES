@@ -52,7 +52,7 @@ spec:
               value: "*"
           resources:
             requests:
-              memory:"128Mi"
+              memory: "128Mi"
               cpu: "100m"
             limits:
               memory: "256Mi"
