@@ -54,7 +54,7 @@ alertmanager:
       receiver: 'discord-notifications'     
       group_by: ['alertname']  
       group_wait: 30s
-      group_interval: 5m 
+      group_interval: 5m
       repeat_interval: 4h
       routes:
         - receiver: 'null'
@@ -65,7 +65,6 @@ alertmanager:
       - name: 'discord-notifications'
         discord_configs:
           - webhook_url: 'https://discord.com/api/webhooks/1533798398245998735/RsL5AnzSyLuzj5n0PO2RK1wUGCyNOjSR0SwDxFoot-d0ozANZdVUJvDo2Bl2AqbCstZO'
-additionalPrometheusRulesMap:
   custom-crashloop-rule:
     groups:
       - name: custom-kubernetes-apps
