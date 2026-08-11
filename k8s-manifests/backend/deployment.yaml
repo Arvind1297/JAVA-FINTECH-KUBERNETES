@@ -72,4 +72,4 @@ spec:
             periodSeconds: 10
             timeoutseconds: 3
             failureThreshold: 3
-            successThreshold: 1
+            successThreshold: 2
